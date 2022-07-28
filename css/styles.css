@@ -47,6 +47,7 @@ text-decoration: none;
 }
 
 
+
 .header-link {
 font-weight: 500;
 font-size: 14px;
@@ -195,6 +196,10 @@ color: var(--white-color)
 }
 
 /* PORTFOLIO BUTTON */
+
+.current {
+    color: var(--accent-color);
+}
 
 .button-btn {
 font-weight: 500;
