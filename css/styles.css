@@ -42,10 +42,13 @@ color: var(--accent-color);
 color: #000000;
 }
 
+.header-nav .current {
+    color: var(--accent-color);
+} 
+
 .link {
 text-decoration: none;
 }
-
 
 
 .header-link {
@@ -114,6 +117,7 @@ background:#188ce8;
 }
 
 /* QUALITY */
+
 .quality-after-title {
 font-weight: 700;
 font-size: 14px;
@@ -195,11 +199,6 @@ color: rgba(255, 255, 255, 0.6);
 color: var(--white-color)
 }
 
-/* PORTFOLIO BUTTON */
-
-.current {
-    color: var(--accent-color);
-}
 
 .button-btn {
 font-weight: 500;
@@ -209,8 +208,11 @@ text-align: center;
 letter-spacing: 0.03em;
 color: var(--second-color);
 border: none;
+font-family: inherit;
 }
 
+.button-btn:focus,
+.current-btn,
 .button-btn:hover {
 background-color:#2196F3;
 color: var(--white-color);
